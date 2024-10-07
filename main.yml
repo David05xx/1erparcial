@@ -20,4 +20,4 @@ jobs:
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: | 
-            npx surge ./src enmanuelzorrilla-parcial1.surge.sh --token $SURGE_TOKEN
+            npx surge ./src omarlyn-parcial1.surge.sh --token $SURGE_TOKEN
